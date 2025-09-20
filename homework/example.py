@@ -16,7 +16,7 @@ def main():
     y = data["y"].values
 
     # Fit the model
-    model = linear_regression.LinearRegression()
+    model = linear_regression.linear_regression()
     model.fit(X, y)
 
     # Make predictions
